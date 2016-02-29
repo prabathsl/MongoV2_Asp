@@ -7,6 +7,9 @@ using V2_test.Properties;
 
 namespace V2_test.Models
 {
+    /// <summary>
+    /// Db Context for Mongo 
+    /// </summary>
     public class MongoDbContext
     {
         public IMongoDatabase Database;

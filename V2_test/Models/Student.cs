@@ -7,6 +7,9 @@ using System.Web;
 
 namespace V2_test.Models
 {
+    /// <summary>
+    /// Model Class for students collection 
+    /// </summary>
     public class Student
     {
         [BsonRepresentation(BsonType.ObjectId)]
